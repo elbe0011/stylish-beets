@@ -3,10 +3,11 @@ html {
   font-family: "PT Serif", serif;
   font-weight: normal;
   line-height: 1.5;
+  max-width: 608px;
 }
 
-h1 {
-  color: #222;
+h1, h2 {
+  color: #3f1622;
   font-family: "PT sans";
   font-weight: bolder;
   font-size: 1.5rem;
@@ -23,18 +24,39 @@ nav ol {
   list-style-type: none;
 }
 
-/*nav a {
-  I want to remove the underline
-}*/
+a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
 
 img {
-  width: 508px;
+  width: 513px;
 }
 
 figcaption {
   font-style: italic;
   text-align: center;
 }
+
+.days {
+  font-size: 1.125rem;
+  font-weight: bolder;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
 /*  Typefaces: PT Sans, PT Serif (from Google Fonts)
     Text sizes: 1.5rem, 1.125rem, 0.8rem
     Line height: 1.5
