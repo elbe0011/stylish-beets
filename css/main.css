@@ -57,6 +57,10 @@ footer {
   font-size: 0.8rem;
 }
 
+ol {
+  list-style-type: lower-greek;
+}
+
 /*  Typefaces: PT Sans, PT Serif (from Google Fonts)
     Text sizes: 1.5rem, 1.125rem, 0.8rem
     Line height: 1.5
