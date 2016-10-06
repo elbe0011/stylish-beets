@@ -61,6 +61,22 @@ ol {
   list-style-type: lower-greek;
 }
 
+.serving {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bolder;
+}
+
+ul {
+  list-style-type: circle;
+  font-size: 0.8rem;
+}
+
+small {
+  font-size: 0.8rem;
+}
 /*  Typefaces: PT Sans, PT Serif (from Google Fonts)
     Text sizes: 1.5rem, 1.125rem, 0.8rem
     Line height: 1.5
